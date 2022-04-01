@@ -5,7 +5,7 @@ ruby '2.4.1'
 gem 'rails', github: 'rails/rails', branch: "5-0-stable"
 # Use Puma as the app server
 gem 'pg'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 4.3', '>= 4.3.12'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3.6'
