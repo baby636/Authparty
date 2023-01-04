@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'dotenv-rails'
-gem 'httparty'
+gem 'httparty', '>= 0.21.0'
 gem 'json'
 gem 'bitcoin-cigs', '~> 0.0.7'
 gem 'grape'
