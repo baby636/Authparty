@@ -34,7 +34,7 @@ gem 'dotenv-rails'
 gem 'httparty'
 gem 'json'
 gem 'bitcoin-cigs', '~> 0.0.7'
-gem 'grape'
+gem 'grape', '>= 2.4.0'
 gem 'pusher'
 
 group :development, :test do
